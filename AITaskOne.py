@@ -99,7 +99,7 @@ def populateGraph():
  G = nx.Graph()
  populateGraph()
 
-   # Dialogue Options To Choose Which Path The User Wants To See
+   # Dialogue Options To Choose Which Path The User Wants To See.
    isValid = False
    while not isValid:
      choice = input('Enter 1 for BFS Path or 2 for UCS Path: ')
