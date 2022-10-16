@@ -7,16 +7,7 @@ import network as nx
 def populateGraph():
     # Add All The Nodes To The Graph In their respective postions
         
-    G.add_node('SportsComplex', pos=(0,6))
-    G.add_node('Siwaka', pos=(2,6))
-    G.add_node('Phase1A', pos=(4,6))
-    G.add_node('Phase1B', pos=(4,4))
-    G.add_node('STC', pos=(4,2))
-    G.add_node('Phase2', pos=(6,4))
-    G.add_node('J1', pos=(8,4))
-    G.add_node('Phase3', pos=(8,2))
-    G.add_node('ParkingLot', pos=(8,0))
-    G.add_node('Mada', pos=(10,4))
+    
 
     # Add All The Edges
     # G.add_edge(source, target, weight)
